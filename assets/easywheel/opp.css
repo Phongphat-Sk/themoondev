@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+.text-main{
+    font-family: 'Anuphan', sans-serif;
+    color: var(--main)!important;
+}
+.text-me{
+    font-weight: 600;
+    font-size: 20px;
+}
+.text-sec{
+    color: var(--sub)!important;
+}
+.bg-main{
+    background-color: var(--main)!important;
+}
+.bg-main-gra{
+    background: linear-gradient(90deg , var(--main) 0%, var(--sub) 100%)!important;
+    border: none!important;
+}
+.border-main{
+    border: 2px solid var(--main);
+}
+.border-top-main{
+    border-top: 5px solid var(--main);
+}
+.border-main-gra{
+    border: 2px solid;
+    border-image-source: linear-gradient(90deg, var(--main) 0%, var(--sub) 100%);;
+    border-image-slice: 1;
+}
+.btn-up:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    background: -webkit-linear-gradient(var(--main) 0%, var(--sub) 100%);
+}
+.annmumu-control {
+    height: 325px;
+}
+
+@media only screen and (max-width: 1400px) {
+     .annmumu-control {
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .annmumu-control {
+        height: 234px;
+    }
+}
+
+.bubble-main {
+    background-color: var(--main);
+    color: #fff;
+    padding: 10px 20px;
+    padding-bottom: 5px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.border-hov {
+            border: 1px solid #ccc;
+            transition: 0.3s ease-in-out;
+        }
+
+        .border-hov:hover {
+            border: 1px solid var(--main);
+        }
+
+        .border-hov.active {
+            border: 1px solid var(--main);
+        }
+
+        .btn-main.active {
+            color: white;
+            background-color: var(--main);
+            border: 1px solid var(--main);
+        }
+
+        .btn-main.active i {
+            color: white !important;
+        }
+
+        .btn-main:hover {
+            color: white;
+            background-color: var(--main);
+            border: 1px solid var(--main);
+        }
+
+        @media only screen and (max-width: 500px) {
+            .pd-sm-font {
+                font-size: 13px !important;
+            }
+
+            .pd-h-font {
+                font-size: 16px;
+            }
+        }
+
+        .menu_hover {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .menu_hover:hover {
+            transform: scale(1.05);
+        }
+
+
+    .text-main-gra {
+        background: -webkit-linear-gradient(-90deg, var(--main) 50%, var(--sub));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .badge-7 {
+        width: 70px;
+        height: 70px;
+        background: var(--main-30);
+        transition: all .5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        border-radius: 10px;
+
+    }
+
+    .badge-7 i {
+        color: var(--main) !important;
+    }
+
+    .btn-main {
+        color: var(--main);
+        background: var(--main-30);
+        border: 1px solid var(--main);
+        transition: all .5s ease;
+
+    }
+
+
+        .underline-active {
+    display: inline-block;
+    color: var(--main);
+    text-decoration: none;
+}
+
+.underline-active::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--main);
+    transition: width .3s;
+}
+h4 {
+    width: 100%;
+    /* overflow: hidden;
+    white-space: nowrap; */
+    text-overflow: ellipsis;
+}
+.underline-active:hover::after {
+    width: 100%;
+}
+.wheel_hover{
+    transition: 0.3s ease-in-out;
+}
+.wheel_hover:hover {
+    transform:  scale(1.05);
+}
+*{
+    font-family: 'Anuphan', sans-serif;
+}
+h1 , h2 , h3, h4 ,h5{
+    font-weight: 200;
+}
+hr{
+    border-top: 2px solid var(--main);
+    opacity: 1;
+}
+.banner{
+    background: url("<?php echo $config['bg'];?>");
+    background-position:  0% 25% ;
+    background-size: cover!important;
+    padding: 35px;
+    height: auto;
+}
+.not-dec{
+    text-decoration: none;
+}
+.bg-hallo{
+    background:  linear-gradient(180deg, rgba(51,54,62,0.9) 73%, rgba(88,93,106,0.6) 100%) , url("https://i.ibb.co/ct3xJRM/wallpapersden-com-batman-dark-theme-1920x1080.jpg");
+    background-size: cover!important;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+}
+.page-wrapper{
+    background-color: transparent; 
+    background-image: url(""); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: 50% 50%;
+}
+.m-cent{
+    margin: 0% auto!important;
+}
+.text-strongest{
+    font-family: 'Anuphan', sans-serif;
+    font-weight: 600;
+}
+.text-nav{
+    color: #c2c9da!important;
+}
+.border-pro{
+    background: #18243d;
+    border: 1px solid #000;
+}
+.border-spe{
+    background: #233458;
+    border: 1px solid #000;
+}
+.border-main{
+    border-color: var(--main)!important;
+}
+.bg-new-dark{
+    background-color: #18243d;
+}
+
+.top-spe{
+    border-top: 2px solid #000;
+}
+.bottom-spe{
+    border-bottom: 2px solid #000;
+}
+.btn-pro-hover:hover{
+    background-color: #233458!important;
+    color: var(--main);
+    transition: 0.4s;
+
+}
+@keyframes glow {
+    0%,
+    100% {
+        box-shadow: 0 0 10px 0 var(--sub-opa-50);
+        /* -webkit-box-shadow: 0 0 10px 0 rgba(231, 135, 27, 0.5); */
+    }
+    40%,
+    60% {
+        box-shadow: 0 0 30px 10px var(--sub-opa-25);
+        /* -webkit-box-shadow: 0 0 30px 10px rgba(231, 135, 27, 0.25); */
+    }
+}
+/* 992 */
+@media only screen and (max-width: 992px) {
+    .nav-item{
+        border-right: none!important;
+    }
+    .nav-item.first{
+        border-left: none!important;
+    }
+}
+.header-top{
+    background-color: var(--sub);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.logre1{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .logre .btn {
+    position: relative;
+    top: 0;
+    left: -10;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logre .btn a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 400px;
+    z-index: 1;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+  }
+  
+  .logre .btn:hover a {
+    letter-spacing: 3px;
+  }
+  
+  .logre .btn a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(45deg) translate(0);
+    transition: 0.5s;
+    filter: blur(0px);
+  }
+  
+  .logre .btn:hover a::before {
+    transform: skewX(45deg) translate(200px);
+  }
+  
+  .logre .btn::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+  }
+  
+  .logre .btn:hover::before /*lightup button*/ {
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+  }
+  
+  .logre .btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+  }
+  
+  .logre .btn:hover::after /*lightup button*/ {
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+  }
+  
+  .logre .btn:nth-child(1)::before,
+  .logre .btn:nth-child(1)::after {
+    background: #1eff45;
+    box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
+          0 0 60px #1eff45;
+  }
+
+  .regis {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .regis .btn {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .regis .btn a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 400px;
+    z-index: 1;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+  }
+  
+  .regis .btn:hover a {
+    letter-spacing: 3px;
+  }
+  
+  .regis .btn a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(45deg) translate(0);
+    transition: 0.5s;
+    filter: blur(0px);
+  }
+  
+  .regis .btn:hover a::before {
+    transform: skewX(45deg) translate(200px);
+  }
+  
+  .regis .btn::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+  }
+  
+  .regis .btn:hover::before /*lightup button*/ {
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+  }
+  
+  .regis .btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+  }
+  
+  .regis .btn:hover::after /*lightup button*/ {
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+  }
+  
+  .regis .btn:nth-child(1)::before,
+  .regis .btn:nth-child(1)::after {
+    background: #7272f2;
+    box-shadow: 0 0 5px #7272f2, 0 0 15px #7272f2, 0 0 30px #7272f2,
+          0 0 60px #7272f2;
+  }
+
+  
+  
